@@ -1,0 +1,126 @@
+@media screen and (max-width: 600px) {
+
+	.chatcontent {
+		z-index: 10;
+		right: 0px; 
+		bottom: 100px;
+		background-color: #fff;
+		position: fixed;
+		bottom: 85px;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+		width: 330px;
+		height: 450px;
+		border-radius: 20px;
+		box-shadow: 0 24px 25px rgba(0,0,0,.1);
+		margin: 10px;
+		box-sizing: border-box;
+		display: none;
+	}
+}
+
+@media screen and (max-width: 600px){
+    .section-heading {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .home-parallax img {
+      width:100% !important;
+      height: 220px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .social {
+      display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .myprogressbar {
+      display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+	.chatcloseicon{
+		position: fixed;
+		cursor: pointer;
+		width: 50px;
+		height: 50px;
+		right: 30px;
+		border-radius: 100px;
+		bottom: 30px;
+		border-top-left-radius: 100px;
+		border-bottom-right-radius: 2px;
+		transition: .5s all linear;
+		z-index: 50;
+		
+	}
+}
+
+@media screen and (max-width: 600px) {
+    .acherightside {
+      display: none;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .hideprogressbar {
+      display: none;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .footersocial {display:none;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+     .footersocial {display:none;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .footersocial {display:none;}
+}
+
+@media screen and (max-width: 600px) {
+    #snackbar {
+        visibility: hidden;
+        min-width: 250px;
+        margin-left: -150px;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        border-radius: 2px;
+        padding: 16px;
+        position: fixed;
+        z-index: 999;
+        left: 40%;
+        top: 100px;
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #snackbar1 {
+        visibility: hidden;
+        min-width: 250px;
+        margin-left: -150px;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        border-radius: 2px;
+        padding: 16px;
+        position: fixed;
+        z-index: 999;
+        left: 40%;
+        top: 100px;
+        font-size: 17px;
+    }
+}

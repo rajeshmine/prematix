@@ -1,0 +1,249 @@
+.mySlides {display:none;}
+.goog-logo-link, .goog-logo-link:link, .goog-logo-link:visited, .goog-logo-link:hover, .goog-logo-link:active {
+    color: #444;
+    display: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+     
+    #snackbar {
+        visibility: hidden;
+        min-width: 250px;
+        margin-left: -125px;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        border-radius: 2px;
+        padding: 16px;
+        position: fixed;
+        z-index: 999;
+        left: 40%;
+        top: 100px;
+        font-size: 17px;
+    }
+    
+    #snackbar.show {
+        visibility: visible;
+        -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+        animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    }
+	
+	#snackbar1 {
+        visibility: hidden;
+        min-width: 250px;
+        margin-left: -125px;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        border-radius: 2px;
+        padding: 16px;
+        position: fixed;
+        z-index: 999;
+        left: 40%;
+        top: 100px;
+        font-size: 17px;
+    }
+    
+    #snackbar1.show {
+        visibility: visible;
+        -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+        animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    }
+    
+    @-webkit-keyframes fadein {
+        from {top: 0; opacity: 0;} 
+        to {top: 100px; opacity: 1;}
+    }
+    
+    @keyframes fadein {
+        from {top: 0; opacity: 0;}
+        to {top: 100px; opacity: 1;}
+    }
+    
+    @-webkit-keyframes fadeout {
+        from {top: 100px; opacity: 1;} 
+        to {top: 0; opacity: 0;}
+    }
+    
+    @keyframes fadeout {
+        from {top: 100px; opacity: 1;}
+        to {top: 0; opacity: 0;}
+    }
+ 
+
+
+    /* .custom-input-file {
+        overflow: hidden;
+        position: relative;
+        width: 120px;
+        height: 120px;
+        background: #eee url('https://s3.amazonaws.com/uifaces/faces/twitter/walterstephanie/128.jpg');    
+        background-size: 120px;
+        border-radius: 120px;
+    }
+    input[type="file"]{
+        z-index: 999;
+        line-height: 0;
+        font-size: 0;
+        position: absolute;
+        opacity: 0;
+        filter: alpha(opacity = 0);-ms-filter: "alpha(opacity=0)";
+        margin: 0;
+        padding:0;
+        left:0;
+    }
+    .uploadPhoto {
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        display: none;
+        width: 50%;
+        height: 50%;
+        color: #fff;    
+        text-align: center;
+        line-height: 60px;
+        text-transform: uppercase;    
+        background-color: rgba(0,0,0,.3);
+        border-radius: 50px;
+        cursor: pointer;
+    }
+    .custom-input-file:hover .uploadPhoto { display: block; } */
+    /* footer social icons */
+
+
+    /* footer social icons */
+
+    .social-network a.icoRss:hover {
+      background-color: #F56505;
+    }
+
+    .social-network a.icoFacebook:hover {
+      background-color: #3B5998;
+    }
+
+    .social-network a.icoTwitter:hover {
+      background-color: #33ccff;
+    }
+
+    .social-network a.icoGoogle:hover {
+      background-color: #BD3518;
+    }
+
+    .social-network a.icoVimeo:hover {
+      background-color: #0590B8;
+    }
+
+    .social-network a.icoLinkedin:hover {
+      background-color: #007bb7;
+    }
+
+    .social-network a.icoRss:hover i,
+    .social-network a.icoFacebook:hover i,
+    .social-network a.icoTwitter:hover i,
+    .social-network a.icoGoogle:hover i,
+    .social-network a.icoVimeo:hover i,
+    .social-network a.icoLinkedin:hover i {
+      color: #fff;
+    }
+
+    a.socialIcon:hover,
+    .socialHoverClass {
+      color: #44BCDD;
+    }
+
+    .social-circle li a {
+      display: inline-block;
+      position: relative;
+      margin: 0 auto 0 auto;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      text-align: center;
+      width: 40px;
+      height: 40px;
+      font-size: 20px;
+    }
+
+    .social-circle li i {
+      margin: 0;
+      line-height: 40px;
+      text-align: center;
+    }
+
+    .social-circle li a:hover i,
+    .triggeredHover {
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -ms--transform: rotate(360deg);
+      transform: rotate(360deg);
+      -webkit-transition: all 0.2s;
+      -moz-transition: all 0.2s;
+      -o-transition: all 0.2s;
+      -ms-transition: all 0.2s;
+      transition: all 0.2s;
+    }
+
+    .social-circle i {
+      color: #fff;
+      -webkit-transition: all 0.8s;
+      -moz-transition: all 0.8s;
+      -o-transition: all 0.8s;
+      -ms-transition: all 0.8s;
+      transition: all 0.8s;
+    }
+
+    .image {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+    
+    .overlay1 {
+        position: absolute;
+        bottom: 100%;
+        left: 0px;
+        right: 0px;
+        background-color: white;
+        overflow: hidden;
+        width: 100%;
+        height: 0px;
+        transition: .5s ease;
+        opacity: 0.6;
+    }
+    
+    .image1:hover .overlay1 {
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+    }
+    .image2:hover .overlay1 {
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+    }
+    .image3:hover .overlay1 {
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+    }
+    .text1 {
+        white-space: nowrap;
+        color: black;
+        font-size: 20px;
+        position: absolute;
+        overflow: hidden;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+    .acherightside{
+        float: right;
+    }
+    .acherightside a{
+        text-decoration: none;
+        color: #fff;
+        
+    }

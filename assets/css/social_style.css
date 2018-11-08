@@ -1,0 +1,546 @@
+
+ul.social-w3-agileits {
+    list-style: none;
+	text-align:center;
+}
+ul.social-w3-agileits li {
+	display:inline-block;
+}
+ul.social-w3-agileits li a i.fa {
+	width:45px;
+	height:45px;
+	text-align:center;
+	line-height:45px;
+	color:black;
+	border:1px solid #ddd;
+	transition:all 0.7s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+	-ms-transition:all 0.5s ease-in-out;
+}
+ul.social-w3-agileits li a i.fa.fa-facebook:hover {
+	background-color:#3b5998;
+	color:#fff;
+}
+ul.social-w3-agileits li a i.fa.fa-youtube:hover {
+	background-color:#cd201f;
+	color:#fff;
+}
+ul.social-w3-agileits li a i.fa.fa-twitter:hover {
+	background-color:#1da1f2;
+	color:#fff;
+}
+ul.social-w3-agileits li a i.fa.fa-google-plus:hover {
+	background-color:#dd4b39;
+	color:#fff;
+}
+ul.social-w3-agileits li a i.fa.fa-linkedin:hover {
+	background-color:#0077b5;
+	color:#fff;
+}
+ul.social-w3-agileits li a i.fa:hover {
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-o-border-radius:50%;
+	-ms-border-radius:50%;
+}
+ul.social-w3-agileits li a i.fa:hover {
+    -webkit-animation: spin 0.7s linear infinite;
+	animation: spin 0.7s linear infinite;
+	-moz-animation: spin 0.7s linear infinite;
+	-o-animation: spin 0.7s linear infinite;
+	-ms-animation: spin 0.7s linear infinite;
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+p.copyright-agileits {
+    font-size: 17px;
+    font-weight: normal;
+    color: #ddd;
+    text-align: center;
+    padding: 40px 10px;
+}
+p.copyright-agileits a {
+	color:#e74c3c;
+}
+p.copyright-agileits a:hover {
+	color:#2ecc71;
+}
+
+/*-- responsive design --*/
+@media (max-width:1600px) {
+	.content-w3ls .content2-agile {
+		min-height:609px;
+	}
+}
+
+@media (max-width:1440px) {
+textarea#message {
+	width:93%;	
+}
+input#username, input#email {
+	width:88.2%;
+}
+}
+
+@media (max-width:1366px) {
+input#username, input#email {
+    width: 88.5%;
+}
+.content-w3ls {
+    width: 75%;
+}
+}
+
+@media (max-width: 1280px) {
+textarea#message {
+    width: 92.5%;
+}
+input#username, input#email {
+    width: 87.5%;
+}
+textarea#message {
+    height: 120px;
+}
+}
+
+@media (max-width: 1080px) {
+textarea#message {
+    width: 91%;
+}
+h1.w3layouts {
+	font-size: 45px;
+}
+.info-w3l {
+    padding: 25px 30px;
+}
+.content-w3ls .content2-agile {
+    min-height: 584px;
+}
+h2.wthree {
+    font-size: 23px;
+	padding-bottom:15px;
+}
+input#username, input#email {
+    height: 40px;
+	width: 85%;
+}
+input#username, input#email, textarea#message {
+	font-size:15px;
+}
+p.copyright-agileits {
+    font-size: 14px;
+}
+}
+
+@media (max-width: 1024px) {
+.content-w3ls {
+    width: 90%;
+}
+textarea#message {
+    width: 92%;
+}
+input#username, input#email {
+	width:87%;
+}
+}
+
+@media (max-width: 991px) {
+input#username, input#email {
+    width: 86.7%;
+}
+}
+
+@media (max-width: 900px) {
+textarea#message {
+    width: 91%;
+}
+input.sign-in {
+	height: 45px;
+}
+input#username, input#email {
+    width: 85%;
+}
+}
+
+@media (max-width: 800px) {
+h1.w3layouts {
+    font-size: 40px;
+}
+input#username, input#email {
+    width: 83%;
+}
+textarea#message {
+    width: 90%;
+}
+}
+
+@media (max-width: 768px) {
+.content-w3ls {
+    width: 65%;
+}	
+.content-w3ls .content1-agile, .content-w3ls .content2-agile {
+    width: 100%;
+    float: left;
+}
+
+textarea#message {
+    width:83%;
+    margin: 0 auto 20px;
+	height:100px;
+}
+input.sign-in {
+    height: 40px;
+	font-size:17px;
+	margin:0 auto;
+	width:90%;
+}
+.content-w3ls .content2-agile {
+    min-height: 360px;
+}
+p.agileinfo:before {
+	left: 23px;
+	width: 36%;
+}
+p.agileinfo:after {
+	right: 23px;
+	width: 36%;
+}
+}
+
+@media (max-width: 667px) {
+.content-w3ls .content2-agile {
+    min-height: 300px;
+}
+h1.w3layouts {
+    font-size: 36px;
+}
+input#username, input#email {
+    width: 77%;
+}
+}
+
+@media (max-width: 640px) {
+input#username, input#email {
+    width: 77.5%;
+}
+}
+
+@media (max-width: 568px) {
+h1.w3layouts {
+    font-size: 33px;
+}
+}
+
+@media (max-width: 480px) {
+.content-w3ls {
+    width: 75%;
+}
+h1.w3layouts {
+    font-size: 30px;
+}
+input#username, input#email {
+    width: 77.5%;
+    margin: 0 auto 15px;
+}
+textarea#message {
+    width: 84.5%;
+    margin: 0 auto 20px;
+    height: 100px;
+}
+input.sign-in {
+    height: 40px;
+    font-size: 17px;
+    margin: 0 auto;
+    width: 95%;
+}
+p.agileinfo {
+	font-size:25px;
+}
+p.agileinfo:before {
+    left: 9px;
+    width: 38%;
+	top:35px;
+}
+p.agileinfo:after {
+    right: 9px;
+    width: 38%;
+	top:35px;
+}
+p.copyright-agileits {
+	padding: 20px 10px;
+    line-height: 30px;
+}
+}
+
+@media (max-width: 414px) {
+h1.w3layouts {
+    font-size: 30px;
+    padding: 20px 0;
+}
+.content-w3ls {
+    width: 85%;
+}
+.info-w3l {
+    padding: 20px 0px;
+}
+input#username, input#email {
+    width: 70%;
+    margin: 0 auto 15px;
+}
+textarea#message {
+    width: 76%;
+    margin: 0 auto 15px;
+    height: 100px;
+}
+input.sign-in {
+    height: 40px;
+    font-size: 17px;
+    margin: 0 auto;
+    width: 85.5%;
+}
+p.agileinfo {
+    font-size: 23px;
+}
+p.agileinfo:before {
+    left: 25px;
+    width: 35%;
+    top: 35px;
+}
+p.agileinfo:after {
+    right: 25px;
+    width: 35%;
+    top: 35px;
+}
+.content-w3ls .content2-agile {
+    min-height: 250px;
+}
+}
+
+@media (max-width: 384px) {
+h1.w3layouts {
+    font-size: 27px;
+    padding: 20px 0;
+}
+input#username, input#email {
+    width: 69.5%;
+}
+}
+
+@media (max-width: 375px) {
+h2.wthree {
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: 300;
+}
+input#username, input#email {
+    width: 70%;
+}
+}
+
+@media (max-width: 320px) {
+h1.w3layouts {
+    font-size: 24px;
+    padding: 20px 0;
+}
+.content-w3ls {
+    width: 90%;
+}
+input#username, input#email, textarea#message {
+    font-size: 14px;
+}
+input#username, input#email {
+    width: 68.5%;
+    margin: 0 auto 10px;
+}
+input.sign-in {
+    height: 40px;
+    font-size: 16px;
+    margin: 0 auto;
+    width: 88%;
+}
+p.agileinfo {
+    font-size: 20px;
+	padding:15px 0;
+}
+p.agileinfo:before {
+    left: 18px;
+    width: 35%;
+    top: 27px;
+}
+p.agileinfo:after {
+    right: 18px;
+    width: 35%;
+    top: 27px;
+}
+ul.social-w3-agileits li a i.fa {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    line-height: 40px;
+}
+.content-w3ls .content2-agile {
+    min-height: 200px;
+}
+p.copyright-agileits {
+    font-size: 13px;
+}
+}
+/*-- /responsive design --*/
+
+
+
+/* SOCIAL SHARE STYLES START  */
+
+.social ul li a {
+  color: #fff!important;
+  text-decoration: none!important;
+}
+.me {
+  width: 400px;
+  margin: 90px auto;
+}
+.me p,
+.me h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.me p {
+  font-weight: 200;
+}
+.me span {
+  font-weight: bold;
+}
+.social {
+  position: fixed;
+  top: 130px;
+  z-index: 999;
+}
+.social ul {
+  padding: 0px;
+  -webkit-transform: translate(-270px, 0);
+  -moz-transform: translate(-270px, 0);
+  -ms-transform: translate(-270px, 0);
+  -o-transform: translate(-270px, 0);
+  transform: translate(-270px, 0);
+}
+.social ul li {
+  display: block;
+  margin: 13px;
+  background: rgb(78, 74, 74);
+  width: 300px;
+  text-align: right;
+  padding: 10px;
+  -webkit-border-radius: 0 30px 30px 0;
+  -moz-border-radius: 0 30px 30px 0;
+  border-radius: 0 30px 30px 0;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.social ul li:hover {
+  -webkit-transform: translate(110px, 0);
+  -moz-transform: translate(110px, 0);
+  -ms-transform: translate(110px, 0);
+  -o-transform: translate(110px, 0);
+  transform: translate(110px, 0);
+  background: rgb(183, 181, 181);
+}
+.social ul li:hover a {
+  color: #000;
+}
+.social ul li:hover i.twt {
+  color: #fff;
+  background: rgb(41, 166, 250);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+.social ul li:hover i.fb{
+    color: #fff;
+    background: rgb(63, 100, 202);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+  }
+
+  .social ul li:hover i.lnd{
+    color: #fff;
+    background: rgb(40, 43, 233);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+  }
+
+  .social ul li:hover i.yt {
+    color: #fff;
+    background: red;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+  }
+
+.social ul li i {
+  margin-left: 10px;
+  color: #000;
+  background: #fff;
+  line-height: 10px;
+  padding: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+  background: #ffffff;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+
+
+/* SOCIAL SHARE STYLES END */

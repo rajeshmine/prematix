@@ -1,0 +1,231 @@
+.first_img1{
+	width:60px;
+	height:60px;
+	border-radius:4px;
+	border:1px solid #f0f0f0;
+	
+	/* background:url("../images/product1.jpg") center / cover; */
+	
+}
+.first_img2{
+	width:60px;
+	height:60px;
+	border-radius:4px;
+	border:1px solid #f0f0f0;
+	
+	/* background:url("http://www.cilico.com/wp-content/uploads/2017/06/c7s3.jpg") center / cover; */
+	
+}
+.first_img3{
+	width:60px;
+	height:60px;
+	border-radius:4px;
+	border:1px solid #f0f0f0;
+	
+	/* background:url("https://5.imimg.com/data5/TW/HJ/MY-27078661/1-500x500.jpg") center / cover; */
+	padding:5px;
+}
+.first_img4{
+	width:60px;
+	height:60px;
+	border-radius:4px;
+	border:1px solid #f0f0f0;
+	
+	/* background:url("https://5.imimg.com/data5/NO/QS/MY-27078661/c7s-multi-function-android-smart-tablet-125x125.jpg") center / cover; */
+	padding:5px;
+}
+.first_img_full{
+	width:395px;
+	height:400px;
+	border-radius:4px;
+	border:1px solid #f0f0f0;
+	margin-left:-40px;
+	cursor:crosshair;
+	
+	padding:5px;
+}
+.first_img1:hover,.first_img2:hover,.first_img3:hover,.first_img4:hover{
+	border:2px solid #2196F3;
+
+	border-right:2px solid #2196F3;
+	cursor:pointer;
+}
+.img_set{
+	float:left;
+	position:absolute;
+	
+}
+.img_set ul{
+	list-style:none;
+	float:left;
+}
+
+
+.product_title{
+	font-size:15px;
+	color:#212121;
+	    padding: 0;
+    line-height: 1.4;
+   
+    font-weight: 500;
+    display: inline-block;
+    margin-right: 5px;
+	font-size:18px;
+	
+}
+.detail.well{
+	padding:0;
+}
+.product_specification{
+	padding:2%;
+	border:1px solid #f0f0f0;
+}
+.produce_key_name{
+	color:#878787;
+	
+	font-size:14px;
+	font-weight:500;
+
+}
+
+.produce_value{
+	color:#212121;
+
+	font-size:14px;
+
+
+}
+.product_subtitle{ 
+    font-size: 18px;
+    white-space: nowrap;
+    line-height: 1.4;
+    text-wrap: none;
+	border-bottom:1px solid #f0f0f0;
+	padding-top:10px;
+	border-top:1px solid #f0f0f0;
+}
+.produce_key_name_general{
+	padding-left:15px;
+	color:#878787;
+}
+
+.detail .row{
+	padding:1%;
+}
+
+.well{
+	box-shadow:none !important;
+}
+
+
+
+/* product discription */
+.box{
+	margin:1%;height:315px;
+	box-shadow: 1px 2px 2px 2px rgba(0,0,0,0.2);
+}
+.box:hover{
+	border-bottom:5px solid #2ebaef;
+	box-shadow: 0px 0px 0px 0px;
+}
+.image {
+		display: block;
+		width: 100%;
+		height: auto;
+		border-radius: 8px;
+	}
+	
+	.overlay1 {
+		position: absolute;
+		bottom: 100%;
+		left: 0px;
+		right: 0px;
+		background-color: white;
+		overflow: hidden;
+		width: 100%;
+		height: 0px;
+		transition: .5s ease;
+		opacity: 0.6;
+	}
+	
+	.image1:hover .overlay1 {
+		bottom: 0;
+		height: 100%;
+		width: 100%;
+	}
+	.image2:hover .overlay1 {
+		bottom: 0;
+		height: 100%;
+		width: 100%;
+	}
+	.image3:hover .overlay1 {
+		bottom: 0;
+		height: 100%;
+		width: 100%;
+	}
+	.text1 {
+		white-space: nowrap;
+		color: black;
+		font-size: 20px;
+		position: absolute;
+		overflow: hidden;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+	}
+
+
+
+
+.well{
+	
+    
+    box-sizing: border-box;
+    /* margin-right: 20px; */
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.24), 0 0 2px rgba(0,0,0,.12);
+    cursor: pointer;
+    -ms-flex: 1;
+    flex: 1;
+    letter-spacing: .01em;
+    padding: 16px;
+    position: relative;
+    transition: all .3s;
+	height:250px;
+    
+}
+.well:hover{
+	
+    
+   box-shadow: 0 4px 4px rgba(1,67,163,.24), 0 0 4px rgba(1,67,163,.12), 0 6px 18px rgba(43,133,231,.12);
+    transform: translate3d(0,-2px,0);
+    text-decoration: none;
+    
+}
+.well .title{
+	
+        color: #212121;
+    font: 500 15px Roboto, sans-serif;
+    margin-bottom: 8px;
+	text-align:center;
+    opacity: .87;
+    
+}
+.well .subtitle{
+	color: #757575;
+    font: normal 13px Roboto, sans-serif;
+    opacity: .87;
+    padding: 0;
+	margin-bottom:1%;
+}
+.well .content {
+    color: #747474;
+    font: normal 14px Roboto, sans-serif;
+    padding: 0;
+	text-align:justify;
+	
+}    
+
+
